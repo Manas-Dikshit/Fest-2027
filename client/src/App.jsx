@@ -15,10 +15,10 @@ import Register from "./pages/Auth/Register/RegisterPage";
 import VerifyEmail from "./pages/Auth/VerifyEmail/VerifyEmail";
 import AvishkarEvents from "./pages/Avishkar/AllEvents";
 import AvishkarEvent from "./pages/Avishkar/EventPage";
-import AvishkarLanding from "./pages/Avishkar/LandingPage";
+import InnovovateLanding from "./pages/Avishkar/LandingPage";
 import CulravEvents from "./pages/Culrav/AllEvents";
 import CulravEvent from "./pages/Culrav/EventPage";
-import CulravLanding from "./pages/Culrav/LandingPage";
+import AavahanLanding from "./pages/Culrav/LandingPage";
 import Home from "./pages/Home/HomePage";
 import PayFeesPage from "./pages/PayFees/PayRegistrationFeePage";
 import Team from "./pages/Team/TeamPage";
@@ -72,11 +72,11 @@ const TitleUpdater = () => {
       case "/outside-registration/payFee":
         title += " Pay Fees";
         break;
-      case "/culrav-landing":
-        title += " Culrav";
+      case "/aavahan-landing":
+        title += " AAVAHAN";
         break;
-      case "/avishkar-landing":
-        title += " Avishkar";
+      case "/innovovate-landing":
+        title += " INNOVOVATE";
         break;
       case "/team":
         title += " Team";
@@ -99,9 +99,9 @@ const TitleUpdater = () => {
         } else if (pathname.includes("/AvishkarEventPage")) {
           title += " Event Page";
         } else if (pathname.includes("/CulravEvents")) {
-          title += " Culrav Events";
+          title += " AAVAHAN Events";
         } else if (pathname.includes("/AvishkarEvents")) {
-          title += " Avishkar Events";
+          title += " INNOVOVATE Events";
         } else {
           title += "";
         }
@@ -131,10 +131,10 @@ function App() {
         <Route path="/verify-email" element={<VerifyEmail />} />
         <Route path="/outside-registration" element={<OutsideRegistration />} />
         <Route path="/outside-registration/payFee" element={<PayFeesPage />} />
-        <Route path="/Culrav-Landing" element={<CulravLanding />} />
+        <Route path="/aavahan-landing" element={<AavahanLanding />} />
         <Route path="/CulravEvents/:EventId" element={<CulravEvents />} />
         <Route path="/CulravEventPage/:EventId/:Id" element={<CulravEvent />} />
-        <Route path="/Avishkar-Landing" element={<AvishkarLanding />} />
+        <Route path="/innovovate-landing" element={<InnovovateLanding />} />
         <Route path="/AvishkarEvents" element={<AvishkarEvents />} />
         <Route path="/AvishkarEvents/:data" element={<AvishkarEvents />} />
         <Route

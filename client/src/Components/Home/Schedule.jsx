@@ -24,7 +24,7 @@ const Schedule = () => {
         <div className="md:pt-36 pt-14 md:px-12 flex md:h-auto h-full flex-col gap-16 items-center">
           <div className="md:w-[78vw] md:h-[22vh] w-[90%] flex items-center justify-center">
             <p className="w-full text-center flex items-center justify-center font-bebas leading-5 text-white md:w-[60vw] md:text-2xl md:leading-normal">
-              CULRAV-AVISHKAR 2024, Techno-Cultural Fest at MNNIT Allahabad, Prayagraj, is an electrifying extravaganza that seamlessly merges technology with cultural diversity. Featuring dynamic competitions, captivating performances, and insightful workshops, it serves as a melting pot of innovation and expression.
+              AAVAHAN-INNOVOVATE 2027, Annual Techno-Cultural Fest at SUIIT, Sambalpur, is an electrifying extravaganza that seamlessly merges technology with cultural diversity. Featuring dynamic competitions, captivating performances, and insightful workshops, it serves as a melting pot of innovation and expression.
             </p>
           </div>
           <div className="flex flex-wrap  items-center justify-center gap-[7vw] p-6">
@@ -36,7 +36,7 @@ const Schedule = () => {
               <img
                 src={culrav}
                 alt="Logo 1"
-                onClick={() => navigate("/culrav-landing")}
+                onClick={() => navigate("/aavahan-landing")}
                 className="object-cover  w-full h-full scale-[150%] md:scale-[100%] lg:scale-[120%] hover:cursor-pointer"
                 style={{ filter: 'drop-shadow(0 0 0.75rem rgb(255, 255, 255))' }}
               />
@@ -49,7 +49,7 @@ const Schedule = () => {
               }}>
               <img
                 src={avishkar}
-                onClick={() => navigate("/avishkar")}
+                onClick={() => navigate("/innovovate-landing")}
                 alt="Logo 2"
                 className="object-cover   w-full h-full scale-[190%] md:scale-[130%] lg:scale-[150%] lg:w-full  hover:cursor-pointer"
                 style={{ filter: 'drop-shadow(0 0 0.75rem rgb(255, 217, 0))' }}

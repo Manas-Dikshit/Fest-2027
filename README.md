@@ -1,29 +1,27 @@
-# 🎉 Culrav-Avishkar 2k24 Official Website
-
+# 🎉 AAVAHAN-INNOVOVATE Official Website
 
 ![Screenshot (500)](https://github.com/user-attachments/assets/b85c68c8-5981-41e2-ba80-7c16f8cf0950)
 
 🚀 Live Deployment
 
-Frontend: https://culrav-avishkar-2k24-client.vercel.app
+Frontend: https://aavahan-innovovate-client.vercel.app
 
-Backend: https://culrav-avishkar-2k24-server.vercel.app/api
+Backend: https://aavahan-innovovate-server.vercel.app/api
 
 
-Welcome to the Official Culrav-Avishkar 2k24 Website Repository ! This project was built as part of the annual techno-cultural fest of our institute, combining cutting-edge web technologies and teamwork to deliver a seamless user experience.
+Welcome to the Official AAVAHAN-INNOVOVATE Website Repository! This project was built as part of the annual techno-cultural fest of our institute, combining cutting-edge web technologies and teamwork to deliver a seamless user experience.
 
 ## Intro
 The Website starts off with a sleek animated video asset that was provided by the MHM Team.
 ![Screenshot (501)](https://github.com/user-attachments/assets/5173c7a1-34ab-4c5f-9dfb-9165af8fe93d)
 
-## Sneak peak into different Sections of the website :
+## Sneak peak into different Sections of the website:
 
-## We had a sleek gallery section on the home page to show past culrav-avishkar memories
+## We had a sleek gallery section on the home page to show past AAVAHAN-INNOVOVATE memories
 ![Screenshot (516)](https://github.com/user-attachments/assets/f09874d6-7493-4de8-be85-8a030fb5303e)
 
-## Events Page , with a captivating and engaging design
+## Events Page, with a captivating and engaging design
 ![Screenshot (509)](https://github.com/user-attachments/assets/e47adfee-d633-4f16-8183-9b632cbdf782)
-
 
 
 ## Profile Dashboard
@@ -41,17 +39,19 @@ The Website starts off with a sleek animated video asset that was provided by th
 ![Screenshot (515)](https://github.com/user-attachments/assets/15a68e68-9e4f-4d74-9d58-29ff02a8ee89)
 
 
-## A vibrant banner section showcasing the logos of both the Cultural and Technical fest !
+
+## A vibrant banner section showcasing the logos of both the Cultural and Technical fest!
 
 ![Screenshot (513)](https://github.com/user-attachments/assets/bd5e75f8-92e4-4996-9666-f47e7106c7c9)
 
 
-## Schedule Page 
+
+## Schedule Page
 ![Screenshot (518)](https://github.com/user-attachments/assets/88548308-7278-4cc7-9a2a-1615adbd68f9)
 
 
 
-## Footer 
+## Footer
 
 
 ![Screenshot (517)](https://github.com/user-attachments/assets/be09e1bd-a09a-4cd7-a9c0-30249b1f69b8)
@@ -62,13 +62,14 @@ The Website starts off with a sleek animated video asset that was provided by th
 ![Code frequency](https://github.com/user-attachments/assets/2b903905-4848-40c7-84e4-9ffe5cca3d2d)
 
 ## Commits over time
-As developers , it is always about getting your PR approved and merged into the main branch right ?. That's a contribution !
-So , this graph shows the amount of commits that were merged into main branch of the repository throughout over time.
+As developers, it is always about getting your PR approved and merged into the main branch right? That's a contribution!
+So, this graph shows the amount of commits that were merged into main branch of the repository throughout over time.
 
 ![Commits over time](https://github.com/user-attachments/assets/e9917c68-c005-4613-9ff1-228149b1f8e6)
 
 
-## Forks 
+
+## Forks
 ![Screenshot 2024-12-31 170416](https://github.com/user-attachments/assets/9f9ecaee-8cfd-454e-b3f9-90cb7bd9c9aa)
 
 ## Google Search Console Results
@@ -77,9 +78,10 @@ The Google search analytics clearly showcased our website's exceptional performa
 ![Screenshot 2024-12-30 232652](https://github.com/user-attachments/assets/3a4ad26f-d8fb-4127-b5e5-c878534ce8e9)
 
 ## Team
-Introducing you to the Incredible Web Team behind the success. It would not have been possible without them !
+Introducing you to the Incredible Web Team behind the success. It would not have been possible without them!
 
 ![image (4)](https://github.com/user-attachments/assets/b5bf4bab-6aca-43ad-8586-8b42c57819b2)
+
 
 
 ## Technologies Used
@@ -96,7 +98,7 @@ Introducing you to the Incredible Web Team behind the success. It would not have
 ## Tailwind CSS
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s)
 
-## GSAP 
+## GSAP
 ![Logo](https://images.prismic.io/toyfight/65e1e07d27237c2bb829b9dc_GSAP-Meta-image.jpg?auto=format%2Ccompress&rect=0%2C0%2C2400%2C1260&w=10800&h=1260)
 
 ## Aceternity UI
@@ -105,9 +107,8 @@ Introducing you to the Incredible Web Team behind the success. It would not have
 ## Framer Motion
 ![Logo](https://tsh.io/wp-content/uploads/fly-images/32664/framer-motion-logo-1-312x211.png)
 
-## Digital Ocean , for deployment
+## Digital Ocean, for deployment
 ![Logo](https://i.pinimg.com/736x/45/3f/0b/453f0bffa251761053221f19f8d2fa7c.jpg)
-
 
 
 ## Run Locally
@@ -115,16 +116,16 @@ Introducing you to the Incredible Web Team behind the success. It would not have
 Clone the project
 
 ```bash
-git clone https://github.com/IAMAmanRaj/culrav-avishkar-2k24.git
+git clone https://github.com/deba608/Fest-2027.git
 ```
 
 Go to the project directory
 
 ```bash
-cd culrav-avishkar-2k24
+cd Fest-2027
 ```
 
-Install dependencies for both frontend and backend :
+Install dependencies for both frontend and backend:
 
 ```bash
 cd server
@@ -132,7 +133,6 @@ npm install
 cd ..
 cd client
 npm install
-
 ```
 
 Start the backend server:
@@ -145,7 +145,7 @@ Start the frontend development server:
 
 ```bash
 cd client
-npm start
+npm run dev
 ```
 
 
@@ -167,7 +167,7 @@ To run this project, you will need to add the following environment variables to
 
 `baseURL`
 
-`CLIENT_URL`= http://localhost:{PORT_NUMBER}, the local port at which your frontend server is running. 
+`CLIENT_URL`= http://localhost:{PORT_NUMBER}, the local port at which your frontend server is running.
 
 `NODE_ENV`= local
 
@@ -180,8 +180,6 @@ you need to add the following environment variables to your .env file inside cli
 `VITE_API_URL`
 
 `VITE_BASE_URL`
-
-
 
 
 
@@ -216,7 +214,6 @@ export default defineConfig(({ mode }) => {
     },
   };
 });
-
 ```
 ## Feedback
 
@@ -228,4 +225,3 @@ If you have any feedback, please reach out to me at imamanraj87@gmail.com
 Check out my other Projects
 
 [Projects Section](https://github.com/IAMAmanRaj?tab=repositories)
-

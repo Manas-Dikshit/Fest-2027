@@ -32,18 +32,18 @@ function Navbar() {
           <h1
             className="hover:text-register tracking-widest transition-colors cursor-pointer duration-300"
             onClick={() => {
-              navigate("/culrav-landing");
+              navigate("/aavahan-landing");
             }}
           >
-            CULRAV
+            AAVAHAN
           </h1>
           <h1
             className="hover:text-register tracking-widest transition-colors cursor-pointer duration-300"
             onClick={() => {
-              navigate("/avishkar-landing");
+              navigate("/innovovate-landing");
             }}
           >
-            AVISHKAR
+            INNOVOVATE
           </h1>
           <h1
             className="hover:text-register tracking-widest transition-colors cursor-pointer duration-300"
