@@ -6,11 +6,11 @@ import cardBg from "@/images/image.png";
 import culravData from "@/data/Event/culrav/events/culravData.js";
 import culravImage from "@/assets/Home/culrav.webp";
 
-function CulravLanding() {
+function AavahanLanding() {
 
   const events = culravData;
   return (
-    <div className=" culrav-Landing-background w-auto h-auto relative z-20 flex flex-col items-center justify-center bg-floralWhite bg-center bg-cover">
+    <div className=" aavahan-Landing-background w-auto h-auto relative z-20 flex flex-col items-center justify-center bg-floralWhite bg-center bg-cover">
 
       {/* <div className="culrav-Landing-background w-auto h-auto relative z-20 flex flex-col items-center justify-center "> */}
       {/* Base2 Image Section */}
@@ -51,12 +51,12 @@ function CulravLanding() {
             className="font-bebas p-[6%] pt-0 sm:p-0 sm:pl-[4%] w-screen sm:w-screen  h-auto text-floralWhite text-center text-[20px] sm:text-left  sm:text-[18px] md:text-[2.4vw] lg:text-[25px] xl:text-4xl md:pt-[15vh] xl:pt-[6vh] "
             style={{ wordSpacing: "0.3vw" }}
           >
-            Culrav, a 4-day-long annual cultural extravaganza of MNNIT
-            Allahabad, is a vibrant celebration of art, music, And creativity.
+            AAVAHAN, a 4-day-long annual cultural extravaganza of SUIIT
+            Sambalpur, is a vibrant celebration of art, music, and creativity.
             With its diverse range of activities, including pronites featuring
-            performances by renowned artists or bAnds, kavsAndhya highlighting
-            poetry And literature, And appearances by comedians or big figures,
-            Culrav offers entertainment And engagement for all attendees.
+            performances by renowned artists or bands, kavisammelan highlighting
+            poetry and literature, and appearances by comedians or big figures,
+            AAVAHAN offers entertainment and engagement for all attendees.
           </p>
         </div>
       </div>
@@ -86,4 +86,4 @@ function CulravLanding() {
     </div>
   );
 }
-export default CulravLanding;
+export default AavahanLanding;

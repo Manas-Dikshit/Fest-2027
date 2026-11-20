@@ -5,16 +5,16 @@ const HorizontalRoller = () => {
       <div id="roller-container" className="bg-slate-400 text-[8vw] md:text-[4.3vw] lg:text-[3.4vw] xl:text-[2.8vw] cursor-pointer absolute bottom-0 z-30">
         <div id="roller-scroller" className="flex gap-[2vw] md:gap-[1.5vw]">
           <div className="roller-in flex gap-[2vw] md:gap-[1.5vw]">
-            <h4>TechnoCultural Fest of MNNIT</h4>
-            <h4>TechnoCultural Fest of MNNIT</h4>
-            <h4>TechnoCultural Fest of MNNIT</h4>
-            <h4>TechnoCultural Fest of MNNIT</h4>
+            <h4>Techno-Cultural Fest of SUIIT</h4>
+            <h4>Techno-Cultural Fest of SUIIT</h4>
+            <h4>Techno-Cultural Fest of SUIIT</h4>
+            <h4>Techno-Cultural Fest of SUIIT</h4>
           </div>
           <div className="roller-in flex gap-[2vw] md:gap-[1.5vw]">
-            <h4>TechnoCultural Fest of MNNIT</h4>
-            <h4>TechnoCultural Fest of MNNIT</h4>
-            <h4>TechnoCultural Fest of MNNIT</h4>
-            <h4>TechnoCultural Fest of MNNIT</h4>
+            <h4>Techno-Cultural Fest of SUIIT</h4>
+            <h4>Techno-Cultural Fest of SUIIT</h4>
+            <h4>Techno-Cultural Fest of SUIIT</h4>
+            <h4>Techno-Cultural Fest of SUIIT</h4>
           </div>
         </div>
         <style jsx>{`

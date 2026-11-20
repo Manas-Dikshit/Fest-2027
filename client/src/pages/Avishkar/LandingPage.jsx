@@ -4,13 +4,13 @@ import EventCard from "@/Components/Avishkar/EventCard";
 import avishkarImage from "@/assets/Home/avishkar.webp";
 import AvishkarAllEvents from "@/data/Event/avishkar/events/AvishkarAllEvents";
 
-function AvishkarLanding() {
+function InnovovateLanding() {
 
     const events = AvishkarAllEvents;
 
 
     return (
-        <div className=" culrav-Landing-background w-auto h-auto relative z-20 flex flex-col items-center justify-center bg-floralWhite bg-center bg-cover">
+        <div className=" innovovate-Landing-background w-auto h-auto relative z-20 flex flex-col items-center justify-center bg-floralWhite bg-center bg-cover">
 
             {/* <div className="culrav-Landing-background w-auto h-auto relative z-20 flex flex-col items-center justify-center "> */}
             {/* Base2 Image Section */}
@@ -51,7 +51,7 @@ function AvishkarLanding() {
                         className="font-bebas p-[6%] pt-0 sm:p-0 sm:pl-[4%] w-screen sm:w-screen  h-auto text-floralWhite text-center text-[20px] sm:text-left  sm:text-[18px] md:text-[2.4vw] lg:text-[25px] xl:text-4xl md:pt-[15vh] xl:pt-[6vh] "
                         style={{ wordSpacing: "0.3vw" }}
                     >
-                        Avishkar, a 3-day-long annual Techno-Management Fest of MNNIT Allahabad is an array of mind boggling events, the festival aims to nurture the budding talents of the nation. It provides a platform to the young engineers and managers to hone their techno-managerial skills on a much-branded-canvas.
+                        INNOVOVATE, a 3-day-long annual Techno-Management Fest of SUIIT Sambalpur is an array of mind-boggling events; the festival aims to nurture the budding talents of the nation. It provides a platform for young engineers and managers to hone their techno-managerial skills on a grand stage.
 
                     </p>
                 </div>
@@ -84,7 +84,7 @@ function AvishkarLanding() {
     );
 }
 
-export default AvishkarLanding;
+export default InnovovateLanding;
 
 
 
