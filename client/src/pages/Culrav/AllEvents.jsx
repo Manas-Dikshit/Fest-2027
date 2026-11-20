@@ -1,5 +1,5 @@
 import EventCard from "@/Components/Culrav/EventCard";
-import roller from "@/images/disc.png"; // Assuming roller image is imported
+import roller from "@/images/disk.png"; // Assuming roller image is imported
 import cardBg from "@/images/image.png";
 import EventCard2 from "@/Components/Culrav/EventCard2";
 import { useParams } from "react-router-dom";
