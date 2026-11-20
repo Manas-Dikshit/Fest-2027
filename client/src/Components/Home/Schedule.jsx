@@ -63,7 +63,7 @@ const Schedule = () => {
           <div className="w-[25vw] absolute left-0  transform   z-[1]">
             <img className="w-full h-full" src={Scrubble1} alt="" />
           </div>
-          <div className="w-[32vw] h-[26vw] transform top-0 z-[1] relative md:top-[1vw] custom1560:left-[6%] lg:top-[3vw] custom1110:top-[5vw] custom1560:top-[8vw] custom1840:top-[6rem] custom1980:top-[8vw] custom1980:scale-[1.2]
+          <div className="w-[32vw] h-[26vw] transform top-[-5vw] z-[1] relative md:top-[-5vw] custom1560:left-[6%] lg:top-[-5vw] custom1110:top-[-5vw] custom1560:top-[-5vw] custom1840:top-[-5vw] custom1980:top-[-5vw] custom1980:scale-[1.2]
               custom1980:left-[8rem]">
             <img src={Radio} alt="" />
           </div>
