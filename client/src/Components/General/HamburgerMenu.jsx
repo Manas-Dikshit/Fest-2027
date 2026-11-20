@@ -2,7 +2,7 @@ import { useState } from "react";
 import Hamburger from "hamburger-react";
 import useAuth from "../../lib/useAuth";
 import { useSelector } from "react-redux";
-import hamburgerBg from "../../assets/Home/HamburgerBg.jpg";
+import hamburgerBg from "../../assets/Home/HamburgerBg.png";
 import { useNavigate } from "react-router-dom";
 
 const HamburgerMenu = () => {
