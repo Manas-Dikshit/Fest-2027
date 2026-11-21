@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import EventCard from "@/Components/Avishkar/EventCard";
 
-import avishkarImage from "@/assets/Home/avishkar.webp";
+import avishkarImage from "@/assets/Home/innovovate.webp";
 import AvishkarAllEvents from "@/data/Event/avishkar/events/AvishkarAllEvents";
 
 function InnovovateLanding() {

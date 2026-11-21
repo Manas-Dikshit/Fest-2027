@@ -4,7 +4,7 @@ import MainEvent from "@/Components/Culrav/MainEventCard";
 import roller from "@/images/disk.png"; // Assuming roller image is imported
 import cardBg from "@/images/image.png";
 import culravData from "@/data/Event/culrav/events/culravData.js";
-import culravImage from "@/assets/Home/culrav.webp";
+import culravImage from "@/assets/Home/aavahan.webp";
 
 function AavahanLanding() {
 
