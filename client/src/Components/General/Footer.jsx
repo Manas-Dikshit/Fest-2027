@@ -39,7 +39,7 @@ function Footer() {
           <div className="text-center text-[3.2vw] md:text-[2.3vw] lg:text-[1.5vw] font-normal font-bebas tracking-widest">
             Annual Techno-Cultural Fest at SUIIT
           </div>
-          <div className="md:mt-[2%] text-center text-[2.5vw] mt-[13%] md:text-[1.5vw] lg:text-[1vw] font-normal font-['Bebas Neue'] tracking-wider">
+          <div className="md:mt-[2%] text-center text-[2.5vw] mt-[3%] md:text-[1.5vw] lg:text-[1vw] font-normal font-['Bebas Neue'] tracking-wider">
             Sambalpur University Institute Of Information Technology, Jyoti Vihar, Burla, Sambalpur, Odisha 768019
           </div>
           <hr className="hidden sm:flex w-[90%] mt-[2%] border-[1px] border-dark_secondary" />

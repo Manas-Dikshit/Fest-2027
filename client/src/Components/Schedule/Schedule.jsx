@@ -44,7 +44,7 @@ const Schedule = () => {
           {event?.round && (
           <div className="flex justify-center items-center w-full h-10 bg-[#000000] rounded-b-lg">
             <p
-              className="text-xs md:text-base font-bionix font-extrabold text-[#FFFAF0] uppercase tracking-wider"
+              className="text-sm md:text-base font-bionix font-extrabold text-[#FFFAF0] uppercase tracking-wider"
             >
               {event?.round}
             </p>

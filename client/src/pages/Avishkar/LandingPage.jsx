@@ -57,7 +57,7 @@ function InnovovateLanding() {
                 </div>
             </div>
 
-            <div className="w-full h-full items-center justify-center flex flex-col mt-[10%] sm:-mt-[20vh]">
+            <div className="w-full h-full items-center justify-center flex flex-col mt-[3%] sm:-mt-[20vh]">
                 <h1
                     className="bg-[#F54E25] md:mb-10 mb-20 font-bionix text-[#FFFAF0] font-bold text-center  "
                     style={{

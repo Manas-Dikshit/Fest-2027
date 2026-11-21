@@ -21,7 +21,7 @@ const Schedule = () => {
       style={{ backgroundImage: `url(${grid})` }}
     >
       <div className="h-auto md:h-auto pb-5 relative">
-        <div className="md:pt-36 pt-14 md:px-12 flex md:h-auto h-full flex-col gap-16 items-center">
+        <div className="md:pt-36 pt-14 md:px-12 px-4 flex md:h-auto h-full flex-col gap-16 items-center">
           <div className="md:w-[78vw] md:h-[22vh] w-[90%] flex items-center justify-center">
             <p className="w-full text-center flex items-center justify-center font-bebas leading-5 text-white md:w-[60vw] md:text-2xl md:leading-normal">
               AAVAHAN-INNOVOVATE 2027, Annual Techno-Cultural Fest at SUIIT, Sambalpur, is an electrifying extravaganza that seamlessly merges technology with cultural diversity. Featuring dynamic competitions, captivating performances, and insightful workshops, it serves as a melting pot of innovation and expression.
@@ -37,7 +37,7 @@ const Schedule = () => {
                 src={culrav}
                 alt="Logo 1"
                 onClick={() => navigate("/aavahan-landing")}
-                className="object-cover  w-full h-full scale-[150%] md:scale-[100%] lg:scale-[120%] hover:cursor-pointer"
+                className="object-cover  w-full h-full scale-[100%] md:scale-[100%] lg:scale-[120%] hover:cursor-pointer"
                 style={{ filter: 'drop-shadow(0 0 0.75rem rgb(255, 255, 255))' }}
               />
             </div>
@@ -51,7 +51,7 @@ const Schedule = () => {
                 src={avishkar}
                 onClick={() => navigate("/innovovate-landing")}
                 alt="Logo 2"
-                className="object-cover   w-full h-full scale-[190%] md:scale-[130%] lg:scale-[150%] lg:w-full  hover:cursor-pointer"
+                className="object-cover   w-full h-full scale-[100%] md:scale-[130%] lg:scale-[150%] lg:w-full  hover:cursor-pointer"
                 style={{ filter: 'drop-shadow(0 0 0.75rem rgb(255, 217, 0))' }}
               />
             </div>
@@ -128,10 +128,10 @@ const Schedule = () => {
             </div>
           </div>
           <div className="h-[40vh] relative md:hidden w-full">
-            <div className=" z-10 absolute -bottom-[9rem] -left-[4.4rem] md:left-[-2.7rem] md:bottom-[-5.5rem] scale-[0.6] md:scale-75 custom1560:left-[0rem] custom1560:scale-100 custom1980:scale-[1.2] custom1980:left-[-4px]">
+            <div className=" z-10 absolute bottom-0 left-0 md:left-[-2.7rem] md:bottom-[-5.5rem] scale-[0.6] md:scale-75 custom1560:left-[0rem] custom1560:scale-100 custom1980:scale-[1.2] custom1980:left-[-4px]">
               <img className="relative z-10 custom1980:bottom-28 custom1980:left-8" src={girlLeft} alt="Girl Left" />
             </div>
-            <div className="absolute z-10 -right-[4.2rem] -bottom-[9rem] md:right-[-2.7rem] md:bottom-[-5.5rem] scale-[0.6] custom1560:scale-100 custom1560:right-[0rem] md:scale-75 custom1980:scale-[1.2] custom1980:right-[-4px]">
+            <div className="absolute z-10 right-0 bottom-0 md:right-[-2.7rem] md:bottom-[-5.5rem] scale-[0.6] custom1560:scale-100 custom1560:right-[0rem] md:scale-75 custom1980:scale-[1.2] custom1980:right-[-4px]">
               <img className="relative custom1980:bottom-28 custom1980:right-8" src={girlRight} alt="Girl Right" />
             </div>
           </div>
