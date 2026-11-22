@@ -8,7 +8,7 @@ function MainEventCard({ roller,id, event }) {
    
   };
   return (
-    <div className="relative w-full h-full  flex flex-col justify-between overflow-hidden transition-transform duration-500 ease-out  ">
+    <div className="relative w-full h-full  flex flex-col justify-between overflow-hidden transition-transform duration-500 ease-out  group">
       {/* Roller Image (transition effect) */}
       <div className="absolute left-0 w-full h-full">
         <div
@@ -46,7 +46,7 @@ function MainEventCard({ roller,id, event }) {
             }}
           >
             <span
-  className="hover:lg:cursor-pointer hover:text-[#F54E25] group-hover:text-[2rem] transition-all duration-300"
+  className="hover:text-[#F54E25] hover:cursor-pointer group-hover:text-[2.5rem] transition-all duration-300"
   onClick={handleClick}
 >
   {" "}
