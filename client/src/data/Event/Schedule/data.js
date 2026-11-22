@@ -1,6 +1,6 @@
 const scheduleData = {
-  day1: {
-    day: 1,
+  day0: {
+    day: 0,
     date: "March 11, 2027",
     events: [
       { title: "StringJams", time: "3:30–4:00 PM", venue: "SUIIT", club: "Cultural" },
@@ -8,8 +8,8 @@ const scheduleData = {
       { title: "Flashmob", time: "4:30–6:30 PM", venue: "SUIIT", club: "Cultural" },
     ],
   },
-  day2: {
-    day: 2,
+  day1: {
+    day: 1,
     date: "March 12, 2027",
     events: [
       { title: "HackVerse 3.0", time: "9:00 AM–5:00 PM", venue: "A.P.J Abdul Kalam Auditorium", club: "Innovation" },
@@ -19,8 +19,8 @@ const scheduleData = {
       { title: "Robo Soccer", time: "6:30–8:30 PM", venue: "SUIIT Field", club: "Innovation" },
     ],
   },
-  day3: {
-    day: 3,
+  day2: {
+    day: 2,
     date: "March 13, 2027",
     events: [
       { title: "Line Follower", time: "9:30–10:30 AM", venue: "Auditorium", club: "Innovation" },
@@ -30,13 +30,8 @@ const scheduleData = {
       { title: "Robo Race", time: "6:00–8:30 PM", venue: "SUIIT Ground", club: "Innovation" },
     ],
   },
-  day4: {
-    day: 4,
-    date: "March 14, 2027",
-    events: [],
-  },
-  day5: {
-    day: 5,
+  day3: {
+    day: 3,
     date: "March 15, 2027",
     events: [
       { title: "Crack a Balloon & Musical Chairs", time: "9:00 AM–12:00 PM", venue: "SUIIT", club: "Cultural" },
@@ -46,8 +41,8 @@ const scheduleData = {
       { title: "Artist Show", time: "8:00 PM onwards", venue: "Stage", club: "Cultural" },
     ],
   },
-  day6: {
-    day: 6,
+  day4: {
+    day: 4,
     date: "March 16, 2027",
     events: [
       { title: "IPL Auction", time: "11:00 AM–1:00 PM", venue: "Auditorium", club: "Cultural" },
