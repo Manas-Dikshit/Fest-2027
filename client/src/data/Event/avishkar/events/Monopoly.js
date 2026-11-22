@@ -3,7 +3,7 @@ import MonopolySubPic from "../images/Sub/Monopoly.webp";
 const Monopoly = {
   eventName: "Monopoly",
   tagline: "",
-  BGImageLink: MonopolyPic,
+  BGImageLink: MonopolySubPic,
   instagramLink: "",
   events: [
     {
