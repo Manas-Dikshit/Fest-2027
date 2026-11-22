@@ -1,4 +1,3 @@
-import MonopolyPic from "../images/Main/MONOPOLY.webp";
 import MonopolySubPic from "../images/Sub/Monopoly.webp";
 
 const Monopoly = {
