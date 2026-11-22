@@ -45,6 +45,7 @@ import AvishkarAllEvents from "@/data/Event/avishkar/events/AvishkarAllEvents";
 import aviskharbg from "@/images/aviskar-bg.png";
 import hoverimage from "@/images/hoveraviskhar.png";
 import cardBg from "@/images/imageavishkar.png";
+import roller from "@/images/disk.png";
 import MainEventCard from "@/Components/Avishkar/MainEventCard";
 import { useParams } from "react-router-dom";
 
