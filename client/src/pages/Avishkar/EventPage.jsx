@@ -167,6 +167,7 @@ function AvishkarEvent() {
             >
               {eventData?.description}
             </p>
+            <div className="mb-8"></div>
           </section>
 
           {/* Rules Section */}
