@@ -55,9 +55,9 @@ function MainEventCard({ roller,id, event }) {
 
           </span>
         </div>
-        <div className="absolute bottom-0 left-0 w-full px-2 z-20 flex items-center justify-center">
+        <div className="absolute group-hover:hidden bottom-0 left-0 w-full px-2 z-20 hover:z-0 flex items-center justify-center">
           <span
-            className=" bottom-0 text-black w-auto max-w-[85%] flex text-center text-[15px] pt-8 xl:text-[18px] -mt-16 font-bionix "
+            className=" bottom-0 text-black w-auto max-w-[90%] flex text-center text-[15px] pt-8 xl:text-[18px] -mt-16 font-bionix hover:z-0 "
           >
             {event.eventName}
           </span>
