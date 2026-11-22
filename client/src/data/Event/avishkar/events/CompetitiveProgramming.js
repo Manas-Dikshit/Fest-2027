@@ -7,15 +7,31 @@ const CompetitiveProgramming = {
   instagramLink: "",
   events: [
     {
-      eventName: "Event 1",
-      eventId: "1",
-      description: "Competitive programming challenge",
-      rules: ["Individual participation", "3 rounds of increasing difficulty"],
-      maxTeamSize: 1,
-      minTeamSize: 1,
+      eventName: "Competitive Programming",
+      eventId: "competitive-programming",
+      description:
+        "Test your problem-solving skills, logical thinking, and coding expertise in a competitive programming challenge.",
+      rules: [
+        "Participants must register before the registration deadline.",
+        "Participants must solve programming problems within the allotted time.",
+        "Solutions must be submitted through the designated platform.",
+        "Use of unfair means, plagiarism, or copied solutions is strictly prohibited.",
+        "The judges' decision will be final."
+      ],
+      minTeamSize: 2,
+      maxTeamSize: 4,
       BGImageLink: CompetitiveProgrammingPic,
       PsLink: "",
-      coordinators: []
+      coordinators: [
+        {
+          name: "Bibhuprasad Samal",
+          contact: "+91 9337344133"
+        },
+        {
+          name: "Pratik Samal",
+          contact: "+91 9124413007"
+        }
+      ]
     }
   ]
 };
