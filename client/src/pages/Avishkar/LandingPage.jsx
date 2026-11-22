@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import EventCard from "@/Components/Avishkar/EventCard";
+import roller from "@/images/disk.png";
 
 import avishkarImage from "@/assets/Home/innovovate.webp";
 import AvishkarAllEvents from "@/data/Event/avishkar/events/AvishkarAllEvents";
@@ -74,7 +75,7 @@ function InnovovateLanding() {
                             key={index}
                             className="mb-5 md:mb-20 m-1 relative group flex flex-col items-center w-[300px] h-[300px] overflow-hidden "
                         >
-                            <EventCard event={event} />
+                            <EventCard roller={roller} event={event} />
                         </div>
                     ))}
                 </div>
