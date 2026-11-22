@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
 import useAuth from "@/lib/useAuth";
 import { Toaster } from "react-hot-toast";
-import logo from "../../assets/general/logo.webp";
+import logo from "../../assets/general/logoo.png";
 import { useSelector } from "react-redux";
 
 function Navbar() {
