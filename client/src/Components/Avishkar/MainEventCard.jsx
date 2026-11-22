@@ -35,7 +35,7 @@ function MainEventCard({ roller,id, event }) {
           {" "}
           {/* Added flex justify-center */}
           {/* Sliding White Background */}
-          <div className={`absolute inset-0 bg-[#181818] ${location.pathname.includes("/AvishkarEvents") ? "border-2 border-t-0 border-white" : "border-none"} transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500`}></div>
+          <div className="absolute inset-0 bg-[#181818] transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500"></div>
 
           {/* Sliding Explore Text */}
           <span
