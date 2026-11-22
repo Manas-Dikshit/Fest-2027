@@ -3,7 +3,7 @@ import NirmaanSubPic from "../images/Sub/Nirmaan.webp";
 const Nirmaan = {
   eventName: "Nirmaan",
   tagline: "Self-Development Through Self-Awareness",
-  BGImageLink: NirmaanPic,
+  BGImageLink: NirmaanSubPic,
   instagramLink: "",
   events: [
     {
