@@ -31,7 +31,7 @@ function MainEventCard({ roller,id, event }) {
         />
       </div>
       <div className="absolute z-30 bottom-0 w-full px-2 flex justify-center items-center h-[30%]">
-        <div className="absolute hover:z-30 bottom-0 left-0 w-full px-2 z-20 flex justify-center h-[70px] ">
+        <div className="absolute bottom-0 left-0 w-full px-2 z-20 flex justify-center h-[70px] ">
           {" "}
           {/* Added flex justify-center */}
           {/* Sliding White Background */}
@@ -57,7 +57,7 @@ function MainEventCard({ roller,id, event }) {
         </div>
         <div className="absolute bottom-0 left-0 w-full px-2 z-20 flex items-center justify-center">
           <span
-            className=" bottom-0 text-black w-auto max-w-[85%] flex text-center text-[15px] pt-8 xl:text-[18px] -mt-16 font-bionix hover:z-0 "
+            className=" bottom-0 text-black w-auto max-w-[85%] flex text-center text-[15px] pt-8 xl:text-[18px] -mt-16 font-bionix "
           >
             {event.eventName}
           </span>
