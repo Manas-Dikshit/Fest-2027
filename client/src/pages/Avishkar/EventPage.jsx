@@ -179,7 +179,7 @@ function AvishkarEvent() {
               {eventData?.rules.map((rule, index) => (
                 <li
                   key={index}
-                  className="flex items-start text-base md:text-[2.5vw] mr-[10%]"
+                  className="flex items-start text-base md:text-[2.5vw] mr-[10%] leading-relaxed"
                   style={{ wordSpacing: "0.2em" }}
                 >
                   <div
