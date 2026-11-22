@@ -162,7 +162,7 @@ function AvishkarEvent() {
               Description
             </h2>
             <p
-              className="w-full text-base md:text-[2.5vw] font-bebas pl-[10%] pr-[10%]"
+              className="w-full text-base md:text-[2.5vw] font-bebas pl-[10%] pr-[10%] leading-relaxed"
               style={{ wordSpacing: "0.2em" }}
             >
               {eventData?.description}
@@ -175,7 +175,7 @@ function AvishkarEvent() {
             <h2 className="text-[#F54E25] font-bionix text-lg md:text-[2.5vw] pr-[9vw] uppercase text-center mb-2">
               Rules
             </h2>
-            <ul className="w-full mx-[5%] font-bebas space-y-4 items-start justify-center flex flex-col">
+            <ul className="w-full mx-[5%] font-bebas space-y-4 items-start justify-center flex flex-col leading-relaxed">
               {eventData?.rules.map((rule, index) => (
                 <li
                   key={index}
