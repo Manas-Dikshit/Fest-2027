@@ -31,7 +31,7 @@ function MainEventCard({ roller,id, event }) {
         />
       </div>
       <div className="absolute z-20 bottom-0 w-full px-2 flex justify-center items-center h-[30%]">
-        <div className="absolute bottom-0 left-0 w-full px-2 z-20 flex justify-center h-[70px] ">
+        <div className="absolute bottom-0 left-0 w-full px-2 z-20 flex justify-center">
           {" "}
           {/* Added flex justify-center */}
           {/* Sliding White Background */}
