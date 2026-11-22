@@ -1,4 +1,3 @@
-import NirmaanPic from "../images/Main/NIRMAAN.webp";
 import NirmaanSubPic from "../images/Sub/Nirmaan.webp";
 
 const Nirmaan = {
