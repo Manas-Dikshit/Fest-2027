@@ -1,5 +1,5 @@
 // you have to import bg image
-import CyberquestPic from "../images/Main/Cyberquest.webp";
+import CyberquestPic from "../images/Main/CYBERQUEST.webp";
 import CyberSubPic from "../images/Sub/Cyberquest.webp";
 
 const CyberQuest = {
