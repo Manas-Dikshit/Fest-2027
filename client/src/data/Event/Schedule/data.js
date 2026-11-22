@@ -26,7 +26,7 @@ const scheduleData = {
       { title: "Line Follower", time: "9:30–10:30 AM", venue: "Auditorium", club: "Innovation" },
       { title: "IdeaNest", time: "11:00 AM–1:00 PM", venue: "Seminar Hall", club: "Innovation" },
       { title: "Drone League", time: "2:00–4:00 PM", venue: "SUIIT Ground", club: "Innovation" },
-      { title: "Make a Poster", time: "4:30–5:30 PM", venue: "Seminar Hall", club: "Cultural" },
+      { title: "Make a Poster", time: "4:30–5:30 PM", venue: "Seminar Hall", club: "Innovation" },
       { title: "Robo Race", time: "6:00–8:30 PM", venue: "SUIIT Ground", club: "Innovation" },
     ],
   },
