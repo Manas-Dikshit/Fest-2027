@@ -1,4 +1,3 @@
-import RasayanMainPic from "../images/Main/Rasayans.webp";
 import RasayanPic from "../images/Sub/Rasayans.webp";
 
 const Rasayans = {
