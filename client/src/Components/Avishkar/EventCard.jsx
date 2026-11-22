@@ -22,7 +22,7 @@ function EventCard({ roller, event }) {
       </div>
 
       {/* Event Image */}
-      <div className="absolute z-10 bottom-0 w-full h-[77%] overflow-hidden">
+      <div className="absolute z-10 bottom-0 w-full h-full overflow-hidden">
         <img
           src={event.BGImageLink}
           alt="Event"
