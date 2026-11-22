@@ -74,8 +74,7 @@ function AvishkarEvents() {
             key={index}
             className="relative group flex flex-col items-center w-[90%] h-[280px] sm:h-[300px] md:h-[350px] lg:h-[380px] lg:w-[380px]  p-[5%]  overflow-hidden "
           >
-            <MainEventCard
-            Card id={id} event={event} />
+            <MainEventCard roller={roller} id={id} event={event} />
           </div>
         ))}
       </div>
