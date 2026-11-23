@@ -11,6 +11,7 @@ import avishkar from "../../assets/Home/innovovate.webp";
 import grid from "../../assets/Home/grid.webp";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import scheduleData from "../../data/Event/Schedule/data";
 
 const Schedule = () => {
   const navigate = useNavigate();
@@ -101,29 +102,17 @@ const Schedule = () => {
           <div className="py-10 px-4 mt-10 md:h-auto w-full md:w-[78%] mb-[10%] lg:min-h-[50vh] custom1110:min-h-[30vh] flex flex-col items-center">
             <div className="hidden md:flex md:flex-wrap gap-4 md:justify-center">
               <div className="flex flex-wrap gap-5 justify-center w-full">
-                <ScheduleCard day={1} date={11} />
-                <ScheduleCard day={2} date={12} />
-                <ScheduleCard day={3} date={13} />
-              </div>
-              <div className="flex flex-wrap gap-5 justify-center w-full">
-                <ScheduleCard day={4} date={14} />
-                <ScheduleCard day={5} date={15} />
-                <ScheduleCard day={6} date={16} />
+                {Object.values(scheduleData).map(({ day, date }) => (
+                  <ScheduleCard key={day} day={day} date={new Date(date).getDate()} />
+                ))}
               </div>
             </div>
 
             <div className="relative -top-8 flex flex-wrap gap-3 justify-center md:hidden">
               <div className="flex flex-wrap justify-center gap-4 w-full">
-                <ScheduleCard day={1} date={11} />
-                <ScheduleCard day={2} date={12} />
-              </div>
-              <div className="flex flex-wrap justify-center gap-4 w-full">
-                <ScheduleCard day={3} date={13} />
-                <ScheduleCard day={4} date={14} />
-              </div>
-              <div className="flex flex-wrap justify-center gap-4 w-full">
-                <ScheduleCard day={5} date={15} />
-                <ScheduleCard day={6} date={16} />
+                {Object.values(scheduleData).map(({ day, date }) => (
+                  <ScheduleCard key={day} day={day} date={new Date(date).getDate()} />
+                ))}
               </div>
             </div>
           </div>
