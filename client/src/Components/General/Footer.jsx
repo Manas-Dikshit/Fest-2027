@@ -44,7 +44,6 @@ function Footer() {
           <div className="md:mt-[2%] text-center text-[2.5vw] mt-[3%] md:text-[1.5vw] lg:text-[1vw] font-normal font-['Bebas Neue'] tracking-wider">
             Sambalpur University Institute Of Information Technology, Jyoti Vihar, Burla, Sambalpur, Odisha 768019
           </div>
-          <hr className="hidden sm:flex w-[90%] mt-[2%] border-[1px] border-dark_secondary" />
           <div className="w-[90%] flex justify-between items-end mt-[6%] md:mt-[2%]">
             <img
               src={horseman1}
@@ -59,6 +58,7 @@ function Footer() {
               className="w-[55px] xs:w-[65px] sm:w-[75px] md:w-[90px] lg:w-[110px] h-auto object-contain"
             />
           </div>
+          <hr className="hidden sm:flex w-[90%] mt-[2%] border-[1px] border-dark_secondary" />
           <div className="text-center text-dark_secondary mt-[4%] text-[3vw] md:text-[1.5vw] lg:text-[1.1vw] md:mt-[1%] font-normal font-bebas tracking-widest">
             ©AAVAHAN-INNOVOVATE, SUIIT
           </div>
