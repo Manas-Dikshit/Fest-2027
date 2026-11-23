@@ -25,12 +25,12 @@ const Gamedev = {
       PsLink: "",
       coordinators: [
         {
-          name: "Bibhuprasad Samal",
-          contact: "+91 9337344133"
+          name: "Subham Mohapatra",
+          contact: "+91 7849005997"
         },
         {
-          name: "Pratik Samal",
-          contact: "+91 9124413007"
+          name: "Subha ranjan Mohapatra",
+          contact: "+91 8260769398"
         }
       ]
     }
