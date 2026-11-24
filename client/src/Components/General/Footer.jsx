@@ -62,6 +62,16 @@ function Footer() {
           <div className="text-center text-dark_secondary mt-[4%] text-[3vw] md:text-[1.5vw] lg:text-[1.1vw] md:mt-[1%] font-normal font-bebas tracking-widest">
             ©AAVAHAN-INNOVOVATE, SUIIT
           </div>
+          <div className="text-center text-dark_secondary mt-[2%] text-[2.8vw] md:text-[1.2vw] lg:text-[0.95vw] font-normal font-bebas tracking-widest">
+            Made with ❤️ by{" "}
+            <a href="https://manas-ranjan-dikshit.netlify.app/" target="_blank" rel="noreferrer" className="underline hover:opacity-80">
+              Manas
+            </a>{" "}
+            and{" "}
+            <a href="https://github.com/deba608" target="_blank" rel="noreferrer" className="underline hover:opacity-80">
+              Debashish
+            </a>
+          </div>
         </div>
       </div>
     </>
