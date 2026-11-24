@@ -131,3 +131,7 @@ npm run lint     # ESLint
 - Admin access is role-based (`User.role`); admin credentials are not stored in the repository.
 - The Vite dev server proxies `/api` requests to `http://localhost:3000`.
 - Frontend static assets live under `client/public/` and `client/src/assets/`.
+
+## Credits
+
+Made with ❤️ by [Manas](https://manas-ranjan-dikshit.netlify.app/) and [Debashish](https://github.com/deba608).
